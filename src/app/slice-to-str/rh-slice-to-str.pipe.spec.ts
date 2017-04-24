@@ -1,13 +1,13 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { RhSliceToStr } from './rh-slice-to-str.pipe';
+import { RhSliceToStrPipe } from './rh-slice-to-str.pipe';
 
-describe('Pipe: RhSliceToStr', () => {
-    let pipe: RhSliceToStr;
+describe('Pipe: RhSliceToStrPipe', () => {
+    let pipe: RhSliceToStrPipe;
 
     beforeEach(() => {
-        pipe = new RhSliceToStr();
+        pipe = new RhSliceToStrPipe();
     });
 
     it('create an instance', () => {

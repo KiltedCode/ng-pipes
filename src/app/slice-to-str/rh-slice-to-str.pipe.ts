@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'rhSliceToStr'
 })
-export class RhSliceToStr implements PipeTransform {
+export class RhSliceToStrPipe implements PipeTransform {
 
   transform(value: string, strToTrim?: string): string {
     if(!value) {
